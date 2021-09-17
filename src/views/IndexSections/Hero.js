@@ -6,9 +6,7 @@ class Hero extends React.Component {
     return (
       <>
         <div className="position-relative">
-          {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
-            {/* Background circles */}
             <div className="shape shape-style-1 shape-default">
               <span className="span-150" />
               <span className="span-50" />
@@ -32,13 +30,12 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      Welcome to the crypto world 
+                      Welcome to the CryptoFolio 
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
@@ -49,7 +46,6 @@ class Hero extends React.Component {
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
                         size="lg"
                         target="_blank"
                       >
@@ -64,14 +60,8 @@ class Hero extends React.Component {
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        Real time cryptocurrencies prices update
                       </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>
